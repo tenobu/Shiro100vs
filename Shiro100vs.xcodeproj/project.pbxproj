@@ -50,7 +50,6 @@
 		989EBD661A105AAF002FCDAA /* yajiritsukichigaiya.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD2A1A105AAF002FCDAA /* yajiritsukichigaiya.png */; };
 		989EBD691A105AAF002FCDAA /* JapanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD2E1A105AAF002FCDAA /* JapanViewController.m */; };
 		989EBD6A1A105AAF002FCDAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD2F1A105AAF002FCDAA /* main.m */; };
-		989EBD6B1A105AAF002FCDAA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD311A105AAF002FCDAA /* MapViewController.m */; };
 		989EBD6C1A105AAF002FCDAA /* RankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD331A105AAF002FCDAA /* RankingViewController.m */; };
 		989EBD6D1A105AAF002FCDAA /* IKCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD371A105AAF002FCDAA /* IKCell.m */; };
 		989EBD6E1A105AAF002FCDAA /* IKMediaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD391A105AAF002FCDAA /* IKMediaCell.m */; };
@@ -131,8 +130,6 @@
 		989EBD2D1A105AAF002FCDAA /* JapanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JapanViewController.h; sourceTree = "<group>"; };
 		989EBD2E1A105AAF002FCDAA /* JapanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JapanViewController.m; sourceTree = "<group>"; };
 		989EBD2F1A105AAF002FCDAA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		989EBD301A105AAF002FCDAA /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		989EBD311A105AAF002FCDAA /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		989EBD321A105AAF002FCDAA /* RankingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingViewController.h; sourceTree = "<group>"; };
 		989EBD331A105AAF002FCDAA /* RankingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingViewController.m; sourceTree = "<group>"; };
 		989EBD361A105AAF002FCDAA /* IKCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKCell.h; sourceTree = "<group>"; };
@@ -213,8 +210,6 @@
 				989EBD2D1A105AAF002FCDAA /* JapanViewController.h */,
 				989EBD2E1A105AAF002FCDAA /* JapanViewController.m */,
 				989EBD2F1A105AAF002FCDAA /* main.m */,
-				989EBD301A105AAF002FCDAA /* MapViewController.h */,
-				989EBD311A105AAF002FCDAA /* MapViewController.m */,
 				989EBD321A105AAF002FCDAA /* RankingViewController.h */,
 				989EBD331A105AAF002FCDAA /* RankingViewController.m */,
 				989EBD341A105AAF002FCDAA /* View */,
@@ -527,7 +522,6 @@
 				989EBD6A1A105AAF002FCDAA /* main.m in Sources */,
 				989EBD401A105AAF002FCDAA /* AppDelegate.m in Sources */,
 				989EBD701A105AAF002FCDAA /* IKLoginViewController.m in Sources */,
-				989EBD6B1A105AAF002FCDAA /* MapViewController.m in Sources */,
 				989EBD711A105AAF002FCDAA /* IKMediaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
