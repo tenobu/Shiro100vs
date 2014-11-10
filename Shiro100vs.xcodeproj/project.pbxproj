@@ -8,12 +8,57 @@
 
 /* Begin PBXBuildFile section */
 		989EBCDB1A10593F002FCDAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBCDA1A10593F002FCDAA /* main.m */; };
-		989EBCDE1A10593F002FCDAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBCDD1A10593F002FCDAA /* AppDelegate.m */; };
-		989EBCE11A10593F002FCDAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBCE01A10593F002FCDAA /* ViewController.m */; };
 		989EBCE41A10593F002FCDAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989EBCE21A10593F002FCDAA /* Main.storyboard */; };
 		989EBCE61A10593F002FCDAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 989EBCE51A10593F002FCDAA /* Images.xcassets */; };
 		989EBCE91A10593F002FCDAA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989EBCE71A10593F002FCDAA /* LaunchScreen.xib */; };
 		989EBCF51A10593F002FCDAA /* Shiro100vsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBCF41A10593F002FCDAA /* Shiro100vsTests.m */; };
+		989EBD401A105AAF002FCDAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBCFF1A105AAF002FCDAA /* AppDelegate.m */; };
+		989EBD431A105AAF002FCDAA /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD061A105AAF002FCDAA /* CameraViewController.m */; };
+		989EBD441A105AAF002FCDAA /* Button_Album_100x50.artx in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD081A105AAF002FCDAA /* Button_Album_100x50.artx */; };
+		989EBD451A105AAF002FCDAA /* Button_Album_100x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD091A105AAF002FCDAA /* Button_Album_100x50.png */; };
+		989EBD461A105AAF002FCDAA /* Button_Camera_100x50.artx in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD0A1A105AAF002FCDAA /* Button_Camera_100x50.artx */; };
+		989EBD471A105AAF002FCDAA /* Button_Camera_100x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD0B1A105AAF002FCDAA /* Button_Camera_100x50.png */; };
+		989EBD481A105AAF002FCDAA /* Button_Modoru_100x50.artx in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD0C1A105AAF002FCDAA /* Button_Modoru_100x50.artx */; };
+		989EBD491A105AAF002FCDAA /* Button_Modoru_100x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD0D1A105AAF002FCDAA /* Button_Modoru_100x50.png */; };
+		989EBD4A1A105AAF002FCDAA /* Button_Shikan_150x120.artx in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD0E1A105AAF002FCDAA /* Button_Shikan_150x120.artx */; };
+		989EBD4B1A105AAF002FCDAA /* Button_Shikan_150x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD0F1A105AAF002FCDAA /* Button_Shikan_150x120.png */; };
+		989EBD4C1A105AAF002FCDAA /* camera59.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD101A105AAF002FCDAA /* camera59.png */; };
+		989EBD4D1A105AAF002FCDAA /* hata.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD111A105AAF002FCDAA /* hata.png */; };
+		989EBD4E1A105AAF002FCDAA /* Japanese_160x160.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD121A105AAF002FCDAA /* Japanese_160x160.png */; };
+		989EBD4F1A105AAF002FCDAA /* Japanese_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD131A105AAF002FCDAA /* Japanese_40x40.png */; };
+		989EBD501A105AAF002FCDAA /* Japanese_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD141A105AAF002FCDAA /* Japanese_80x80.png */; };
+		989EBD511A105AAF002FCDAA /* Japanese_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD151A105AAF002FCDAA /* Japanese_color.png */; };
+		989EBD521A105AAF002FCDAA /* little25_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD161A105AAF002FCDAA /* little25_2.png */; };
+		989EBD531A105AAF002FCDAA /* machine2.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD171A105AAF002FCDAA /* machine2.png */; };
+		989EBD541A105AAF002FCDAA /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD181A105AAF002FCDAA /* maps.png */; };
+		989EBD551A105AAF002FCDAA /* Mikata_142x127.artx in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD191A105AAF002FCDAA /* Mikata_142x127.artx */; };
+		989EBD561A105AAF002FCDAA /* Mikata_142x127.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD1A1A105AAF002FCDAA /* Mikata_142x127.png */; };
+		989EBD571A105AAF002FCDAA /* movie42.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD1B1A105AAF002FCDAA /* movie42.png */; };
+		989EBD581A105AAF002FCDAA /* play2.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD1C1A105AAF002FCDAA /* play2.png */; };
+		989EBD591A105AAF002FCDAA /* Setting_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD1D1A105AAF002FCDAA /* Setting_40x40.png */; };
+		989EBD5A1A105AAF002FCDAA /* silhouette4.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD1E1A105AAF002FCDAA /* silhouette4.png */; };
+		989EBD5B1A105AAF002FCDAA /* silhouette5.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD1F1A105AAF002FCDAA /* silhouette5.png */; };
+		989EBD5C1A105AAF002FCDAA /* Slideshow_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD201A105AAF002FCDAA /* Slideshow_40x40.png */; };
+		989EBD5D1A105AAF002FCDAA /* Teki_142x127.artx in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD211A105AAF002FCDAA /* Teki_142x127.artx */; };
+		989EBD5E1A105AAF002FCDAA /* Teki_142x127.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD221A105AAF002FCDAA /* Teki_142x127.png */; };
+		989EBD5F1A105AAF002FCDAA /* tokushima3.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD231A105AAF002FCDAA /* tokushima3.png */; };
+		989EBD601A105AAF002FCDAA /* Tokushima_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD241A105AAF002FCDAA /* Tokushima_40x40.png */; };
+		989EBD611A105AAF002FCDAA /* yajir_.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD251A105AAF002FCDAA /* yajir_.png */; };
+		989EBD621A105AAF002FCDAA /* Yajiri_160x160.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD261A105AAF002FCDAA /* Yajiri_160x160.png */; };
+		989EBD631A105AAF002FCDAA /* Yajiri_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD271A105AAF002FCDAA /* Yajiri_40x40.png */; };
+		989EBD641A105AAF002FCDAA /* Yajiri_40x40.psd in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD281A105AAF002FCDAA /* Yajiri_40x40.psd */; };
+		989EBD651A105AAF002FCDAA /* Yajiri_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD291A105AAF002FCDAA /* Yajiri_80x80.png */; };
+		989EBD661A105AAF002FCDAA /* yajiritsukichigaiya.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD2A1A105AAF002FCDAA /* yajiritsukichigaiya.png */; };
+		989EBD681A105AAF002FCDAA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD2C1A105AAF002FCDAA /* Info.plist */; };
+		989EBD691A105AAF002FCDAA /* JapanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD2E1A105AAF002FCDAA /* JapanViewController.m */; };
+		989EBD6A1A105AAF002FCDAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD2F1A105AAF002FCDAA /* main.m */; };
+		989EBD6B1A105AAF002FCDAA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD311A105AAF002FCDAA /* MapViewController.m */; };
+		989EBD6C1A105AAF002FCDAA /* RankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD331A105AAF002FCDAA /* RankingViewController.m */; };
+		989EBD6D1A105AAF002FCDAA /* IKCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD371A105AAF002FCDAA /* IKCell.m */; };
+		989EBD6E1A105AAF002FCDAA /* IKMediaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD391A105AAF002FCDAA /* IKMediaCell.m */; };
+		989EBD6F1A105AAF002FCDAA /* IKCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD3B1A105AAF002FCDAA /* IKCollectionViewController.m */; };
+		989EBD701A105AAF002FCDAA /* IKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD3D1A105AAF002FCDAA /* IKLoginViewController.m */; };
+		989EBD711A105AAF002FCDAA /* IKMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD3F1A105AAF002FCDAA /* IKMediaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +75,69 @@
 		989EBCD51A10593F002FCDAA /* Shiro100vs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shiro100vs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		989EBCD91A10593F002FCDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		989EBCDA1A10593F002FCDAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		989EBCDC1A10593F002FCDAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		989EBCDD1A10593F002FCDAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		989EBCDF1A10593F002FCDAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		989EBCE01A10593F002FCDAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		989EBCE31A10593F002FCDAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		989EBCE51A10593F002FCDAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		989EBCE81A10593F002FCDAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		989EBCEE1A10593F002FCDAA /* Shiro100vsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shiro100vsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		989EBCF31A10593F002FCDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		989EBCF41A10593F002FCDAA /* Shiro100vsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shiro100vsTests.m; sourceTree = "<group>"; };
+		989EBCFE1A105AAF002FCDAA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		989EBCFF1A105AAF002FCDAA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		989EBD051A105AAF002FCDAA /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		989EBD061A105AAF002FCDAA /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		989EBD081A105AAF002FCDAA /* Button_Album_100x50.artx */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Button_Album_100x50.artx; sourceTree = "<group>"; };
+		989EBD091A105AAF002FCDAA /* Button_Album_100x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Album_100x50.png; sourceTree = "<group>"; };
+		989EBD0A1A105AAF002FCDAA /* Button_Camera_100x50.artx */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Button_Camera_100x50.artx; sourceTree = "<group>"; };
+		989EBD0B1A105AAF002FCDAA /* Button_Camera_100x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Camera_100x50.png; sourceTree = "<group>"; };
+		989EBD0C1A105AAF002FCDAA /* Button_Modoru_100x50.artx */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Button_Modoru_100x50.artx; sourceTree = "<group>"; };
+		989EBD0D1A105AAF002FCDAA /* Button_Modoru_100x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Modoru_100x50.png; sourceTree = "<group>"; };
+		989EBD0E1A105AAF002FCDAA /* Button_Shikan_150x120.artx */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Button_Shikan_150x120.artx; sourceTree = "<group>"; };
+		989EBD0F1A105AAF002FCDAA /* Button_Shikan_150x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Shikan_150x120.png; sourceTree = "<group>"; };
+		989EBD101A105AAF002FCDAA /* camera59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera59.png; sourceTree = "<group>"; };
+		989EBD111A105AAF002FCDAA /* hata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hata.png; sourceTree = "<group>"; };
+		989EBD121A105AAF002FCDAA /* Japanese_160x160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japanese_160x160.png; sourceTree = "<group>"; };
+		989EBD131A105AAF002FCDAA /* Japanese_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japanese_40x40.png; sourceTree = "<group>"; };
+		989EBD141A105AAF002FCDAA /* Japanese_80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japanese_80x80.png; sourceTree = "<group>"; };
+		989EBD151A105AAF002FCDAA /* Japanese_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japanese_color.png; sourceTree = "<group>"; };
+		989EBD161A105AAF002FCDAA /* little25_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = little25_2.png; sourceTree = "<group>"; };
+		989EBD171A105AAF002FCDAA /* machine2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machine2.png; sourceTree = "<group>"; };
+		989EBD181A105AAF002FCDAA /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
+		989EBD191A105AAF002FCDAA /* Mikata_142x127.artx */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Mikata_142x127.artx; sourceTree = "<group>"; };
+		989EBD1A1A105AAF002FCDAA /* Mikata_142x127.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mikata_142x127.png; sourceTree = "<group>"; };
+		989EBD1B1A105AAF002FCDAA /* movie42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movie42.png; sourceTree = "<group>"; };
+		989EBD1C1A105AAF002FCDAA /* play2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play2.png; sourceTree = "<group>"; };
+		989EBD1D1A105AAF002FCDAA /* Setting_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Setting_40x40.png; sourceTree = "<group>"; };
+		989EBD1E1A105AAF002FCDAA /* silhouette4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silhouette4.png; sourceTree = "<group>"; };
+		989EBD1F1A105AAF002FCDAA /* silhouette5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silhouette5.png; sourceTree = "<group>"; };
+		989EBD201A105AAF002FCDAA /* Slideshow_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slideshow_40x40.png; sourceTree = "<group>"; };
+		989EBD211A105AAF002FCDAA /* Teki_142x127.artx */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Teki_142x127.artx; sourceTree = "<group>"; };
+		989EBD221A105AAF002FCDAA /* Teki_142x127.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Teki_142x127.png; sourceTree = "<group>"; };
+		989EBD231A105AAF002FCDAA /* tokushima3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tokushima3.png; sourceTree = "<group>"; };
+		989EBD241A105AAF002FCDAA /* Tokushima_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tokushima_40x40.png; sourceTree = "<group>"; };
+		989EBD251A105AAF002FCDAA /* yajir_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yajir_.png; sourceTree = "<group>"; };
+		989EBD261A105AAF002FCDAA /* Yajiri_160x160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yajiri_160x160.png; sourceTree = "<group>"; };
+		989EBD271A105AAF002FCDAA /* Yajiri_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yajiri_40x40.png; sourceTree = "<group>"; };
+		989EBD281A105AAF002FCDAA /* Yajiri_40x40.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yajiri_40x40.psd; sourceTree = "<group>"; };
+		989EBD291A105AAF002FCDAA /* Yajiri_80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yajiri_80x80.png; sourceTree = "<group>"; };
+		989EBD2A1A105AAF002FCDAA /* yajiritsukichigaiya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yajiritsukichigaiya.png; sourceTree = "<group>"; };
+		989EBD2C1A105AAF002FCDAA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		989EBD2D1A105AAF002FCDAA /* JapanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JapanViewController.h; sourceTree = "<group>"; };
+		989EBD2E1A105AAF002FCDAA /* JapanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JapanViewController.m; sourceTree = "<group>"; };
+		989EBD2F1A105AAF002FCDAA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		989EBD301A105AAF002FCDAA /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		989EBD311A105AAF002FCDAA /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		989EBD321A105AAF002FCDAA /* RankingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingViewController.h; sourceTree = "<group>"; };
+		989EBD331A105AAF002FCDAA /* RankingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingViewController.m; sourceTree = "<group>"; };
+		989EBD361A105AAF002FCDAA /* IKCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKCell.h; sourceTree = "<group>"; };
+		989EBD371A105AAF002FCDAA /* IKCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKCell.m; sourceTree = "<group>"; };
+		989EBD381A105AAF002FCDAA /* IKMediaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKMediaCell.h; sourceTree = "<group>"; };
+		989EBD391A105AAF002FCDAA /* IKMediaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKMediaCell.m; sourceTree = "<group>"; };
+		989EBD3A1A105AAF002FCDAA /* IKCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKCollectionViewController.h; sourceTree = "<group>"; };
+		989EBD3B1A105AAF002FCDAA /* IKCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKCollectionViewController.m; sourceTree = "<group>"; };
+		989EBD3C1A105AAF002FCDAA /* IKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKLoginViewController.h; sourceTree = "<group>"; };
+		989EBD3D1A105AAF002FCDAA /* IKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKLoginViewController.m; sourceTree = "<group>"; };
+		989EBD3E1A105AAF002FCDAA /* IKMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKMediaViewController.h; sourceTree = "<group>"; };
+		989EBD3F1A105AAF002FCDAA /* IKMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKMediaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +179,24 @@
 		989EBCD71A10593F002FCDAA /* Shiro100vs */ = {
 			isa = PBXGroup;
 			children = (
-				989EBCDC1A10593F002FCDAA /* AppDelegate.h */,
-				989EBCDD1A10593F002FCDAA /* AppDelegate.m */,
-				989EBCDF1A10593F002FCDAA /* ViewController.h */,
-				989EBCE01A10593F002FCDAA /* ViewController.m */,
-				989EBCE21A10593F002FCDAA /* Main.storyboard */,
-				989EBCE51A10593F002FCDAA /* Images.xcassets */,
 				989EBCE71A10593F002FCDAA /* LaunchScreen.xib */,
+				989EBCE21A10593F002FCDAA /* Main.storyboard */,
+				989EBCFE1A105AAF002FCDAA /* AppDelegate.h */,
+				989EBCFF1A105AAF002FCDAA /* AppDelegate.m */,
+				989EBD051A105AAF002FCDAA /* CameraViewController.h */,
+				989EBD061A105AAF002FCDAA /* CameraViewController.m */,
+				989EBD2C1A105AAF002FCDAA /* Info.plist */,
+				989EBD2D1A105AAF002FCDAA /* JapanViewController.h */,
+				989EBD2E1A105AAF002FCDAA /* JapanViewController.m */,
+				989EBD2F1A105AAF002FCDAA /* main.m */,
+				989EBD301A105AAF002FCDAA /* MapViewController.h */,
+				989EBD311A105AAF002FCDAA /* MapViewController.m */,
+				989EBD321A105AAF002FCDAA /* RankingViewController.h */,
+				989EBD331A105AAF002FCDAA /* RankingViewController.m */,
+				989EBD341A105AAF002FCDAA /* View */,
+				989EBD001A105AAF002FCDAA /* Base.lproj */,
+				989EBCE51A10593F002FCDAA /* Images.xcassets */,
+				989EBD071A105AAF002FCDAA /* Images */,
 				989EBCD81A10593F002FCDAA /* Supporting Files */,
 			);
 			path = Shiro100vs;
@@ -117,6 +226,80 @@
 				989EBCF31A10593F002FCDAA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		989EBD001A105AAF002FCDAA /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		989EBD071A105AAF002FCDAA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				989EBD081A105AAF002FCDAA /* Button_Album_100x50.artx */,
+				989EBD091A105AAF002FCDAA /* Button_Album_100x50.png */,
+				989EBD0A1A105AAF002FCDAA /* Button_Camera_100x50.artx */,
+				989EBD0B1A105AAF002FCDAA /* Button_Camera_100x50.png */,
+				989EBD0C1A105AAF002FCDAA /* Button_Modoru_100x50.artx */,
+				989EBD0D1A105AAF002FCDAA /* Button_Modoru_100x50.png */,
+				989EBD0E1A105AAF002FCDAA /* Button_Shikan_150x120.artx */,
+				989EBD0F1A105AAF002FCDAA /* Button_Shikan_150x120.png */,
+				989EBD101A105AAF002FCDAA /* camera59.png */,
+				989EBD111A105AAF002FCDAA /* hata.png */,
+				989EBD121A105AAF002FCDAA /* Japanese_160x160.png */,
+				989EBD131A105AAF002FCDAA /* Japanese_40x40.png */,
+				989EBD141A105AAF002FCDAA /* Japanese_80x80.png */,
+				989EBD151A105AAF002FCDAA /* Japanese_color.png */,
+				989EBD161A105AAF002FCDAA /* little25_2.png */,
+				989EBD171A105AAF002FCDAA /* machine2.png */,
+				989EBD181A105AAF002FCDAA /* maps.png */,
+				989EBD191A105AAF002FCDAA /* Mikata_142x127.artx */,
+				989EBD1A1A105AAF002FCDAA /* Mikata_142x127.png */,
+				989EBD1B1A105AAF002FCDAA /* movie42.png */,
+				989EBD1C1A105AAF002FCDAA /* play2.png */,
+				989EBD1D1A105AAF002FCDAA /* Setting_40x40.png */,
+				989EBD1E1A105AAF002FCDAA /* silhouette4.png */,
+				989EBD1F1A105AAF002FCDAA /* silhouette5.png */,
+				989EBD201A105AAF002FCDAA /* Slideshow_40x40.png */,
+				989EBD211A105AAF002FCDAA /* Teki_142x127.artx */,
+				989EBD221A105AAF002FCDAA /* Teki_142x127.png */,
+				989EBD231A105AAF002FCDAA /* tokushima3.png */,
+				989EBD241A105AAF002FCDAA /* Tokushima_40x40.png */,
+				989EBD251A105AAF002FCDAA /* yajir_.png */,
+				989EBD261A105AAF002FCDAA /* Yajiri_160x160.png */,
+				989EBD271A105AAF002FCDAA /* Yajiri_40x40.png */,
+				989EBD281A105AAF002FCDAA /* Yajiri_40x40.psd */,
+				989EBD291A105AAF002FCDAA /* Yajiri_80x80.png */,
+				989EBD2A1A105AAF002FCDAA /* yajiritsukichigaiya.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		989EBD341A105AAF002FCDAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				989EBD351A105AAF002FCDAA /* CollectionView Cells */,
+				989EBD3A1A105AAF002FCDAA /* IKCollectionViewController.h */,
+				989EBD3B1A105AAF002FCDAA /* IKCollectionViewController.m */,
+				989EBD3C1A105AAF002FCDAA /* IKLoginViewController.h */,
+				989EBD3D1A105AAF002FCDAA /* IKLoginViewController.m */,
+				989EBD3E1A105AAF002FCDAA /* IKMediaViewController.h */,
+				989EBD3F1A105AAF002FCDAA /* IKMediaViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		989EBD351A105AAF002FCDAA /* CollectionView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				989EBD361A105AAF002FCDAA /* IKCell.h */,
+				989EBD371A105AAF002FCDAA /* IKCell.m */,
+				989EBD381A105AAF002FCDAA /* IKMediaCell.h */,
+				989EBD391A105AAF002FCDAA /* IKMediaCell.m */,
+			);
+			path = "CollectionView Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +382,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989EBD641A105AAF002FCDAA /* Yajiri_40x40.psd in Resources */,
+				989EBD4F1A105AAF002FCDAA /* Japanese_40x40.png in Resources */,
+				989EBD621A105AAF002FCDAA /* Yajiri_160x160.png in Resources */,
+				989EBD531A105AAF002FCDAA /* machine2.png in Resources */,
+				989EBD611A105AAF002FCDAA /* yajir_.png in Resources */,
+				989EBD471A105AAF002FCDAA /* Button_Camera_100x50.png in Resources */,
+				989EBD4E1A105AAF002FCDAA /* Japanese_160x160.png in Resources */,
 				989EBCE41A10593F002FCDAA /* Main.storyboard in Resources */,
+				989EBD591A105AAF002FCDAA /* Setting_40x40.png in Resources */,
+				989EBD5F1A105AAF002FCDAA /* tokushima3.png in Resources */,
+				989EBD4C1A105AAF002FCDAA /* camera59.png in Resources */,
+				989EBD5C1A105AAF002FCDAA /* Slideshow_40x40.png in Resources */,
+				989EBD4A1A105AAF002FCDAA /* Button_Shikan_150x120.artx in Resources */,
+				989EBD4B1A105AAF002FCDAA /* Button_Shikan_150x120.png in Resources */,
+				989EBD571A105AAF002FCDAA /* movie42.png in Resources */,
+				989EBD601A105AAF002FCDAA /* Tokushima_40x40.png in Resources */,
+				989EBD5A1A105AAF002FCDAA /* silhouette4.png in Resources */,
+				989EBD631A105AAF002FCDAA /* Yajiri_40x40.png in Resources */,
+				989EBD681A105AAF002FCDAA /* Info.plist in Resources */,
+				989EBD451A105AAF002FCDAA /* Button_Album_100x50.png in Resources */,
+				989EBD491A105AAF002FCDAA /* Button_Modoru_100x50.png in Resources */,
+				989EBD501A105AAF002FCDAA /* Japanese_80x80.png in Resources */,
 				989EBCE91A10593F002FCDAA /* LaunchScreen.xib in Resources */,
+				989EBD441A105AAF002FCDAA /* Button_Album_100x50.artx in Resources */,
+				989EBD661A105AAF002FCDAA /* yajiritsukichigaiya.png in Resources */,
+				989EBD581A105AAF002FCDAA /* play2.png in Resources */,
+				989EBD4D1A105AAF002FCDAA /* hata.png in Resources */,
+				989EBD511A105AAF002FCDAA /* Japanese_color.png in Resources */,
+				989EBD651A105AAF002FCDAA /* Yajiri_80x80.png in Resources */,
+				989EBD551A105AAF002FCDAA /* Mikata_142x127.artx in Resources */,
 				989EBCE61A10593F002FCDAA /* Images.xcassets in Resources */,
+				989EBD5E1A105AAF002FCDAA /* Teki_142x127.png in Resources */,
+				989EBD481A105AAF002FCDAA /* Button_Modoru_100x50.artx in Resources */,
+				989EBD5B1A105AAF002FCDAA /* silhouette5.png in Resources */,
+				989EBD5D1A105AAF002FCDAA /* Teki_142x127.artx in Resources */,
+				989EBD561A105AAF002FCDAA /* Mikata_142x127.png in Resources */,
+				989EBD461A105AAF002FCDAA /* Button_Camera_100x50.artx in Resources */,
+				989EBD541A105AAF002FCDAA /* maps.png in Resources */,
+				989EBD521A105AAF002FCDAA /* little25_2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +438,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				989EBCE11A10593F002FCDAA /* ViewController.m in Sources */,
-				989EBCDE1A10593F002FCDAA /* AppDelegate.m in Sources */,
+				989EBD431A105AAF002FCDAA /* CameraViewController.m in Sources */,
+				989EBD6F1A105AAF002FCDAA /* IKCollectionViewController.m in Sources */,
 				989EBCDB1A10593F002FCDAA /* main.m in Sources */,
+				989EBD6C1A105AAF002FCDAA /* RankingViewController.m in Sources */,
+				989EBD691A105AAF002FCDAA /* JapanViewController.m in Sources */,
+				989EBD6D1A105AAF002FCDAA /* IKCell.m in Sources */,
+				989EBD6E1A105AAF002FCDAA /* IKMediaCell.m in Sources */,
+				989EBD6A1A105AAF002FCDAA /* main.m in Sources */,
+				989EBD401A105AAF002FCDAA /* AppDelegate.m in Sources */,
+				989EBD701A105AAF002FCDAA /* IKLoginViewController.m in Sources */,
+				989EBD6B1A105AAF002FCDAA /* MapViewController.m in Sources */,
+				989EBD711A105AAF002FCDAA /* IKMediaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

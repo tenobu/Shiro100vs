@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  Shiro100vs
+//  Shiro_100
 //
-//  Created by 寺内 信夫 on 2014/11/10.
+//  Created by 寺内 信夫 on 2014/11/02.
 //  Copyright (c) 2014年 寺内 信夫. All rights reserved.
 //
 
@@ -12,6 +12,10 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property NSString *string_Shikan;
+@property NSString *string_Kurai;
+
+- (void)setShiroData;
 
 @end
 
