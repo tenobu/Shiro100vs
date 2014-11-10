@@ -23,7 +23,6 @@
 		989EBD4A1A105AAF002FCDAA /* Button_Shikan_150x120.artx in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD0E1A105AAF002FCDAA /* Button_Shikan_150x120.artx */; };
 		989EBD4B1A105AAF002FCDAA /* Button_Shikan_150x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD0F1A105AAF002FCDAA /* Button_Shikan_150x120.png */; };
 		989EBD4D1A105AAF002FCDAA /* hata.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD111A105AAF002FCDAA /* hata.png */; };
-		989EBD4E1A105AAF002FCDAA /* Japanese_160x160.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD121A105AAF002FCDAA /* Japanese_160x160.png */; };
 		989EBD4F1A105AAF002FCDAA /* Japanese_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD131A105AAF002FCDAA /* Japanese_40x40.png */; };
 		989EBD501A105AAF002FCDAA /* Japanese_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD141A105AAF002FCDAA /* Japanese_80x80.png */; };
 		989EBD511A105AAF002FCDAA /* Japanese_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD151A105AAF002FCDAA /* Japanese_color.png */; };
@@ -49,7 +48,6 @@
 		989EBD651A105AAF002FCDAA /* Yajiri_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD291A105AAF002FCDAA /* Yajiri_80x80.png */; };
 		989EBD661A105AAF002FCDAA /* yajiritsukichigaiya.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD2A1A105AAF002FCDAA /* yajiritsukichigaiya.png */; };
 		989EBD691A105AAF002FCDAA /* JapanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD2E1A105AAF002FCDAA /* JapanViewController.m */; };
-		989EBD6A1A105AAF002FCDAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD2F1A105AAF002FCDAA /* main.m */; };
 		989EBD6C1A105AAF002FCDAA /* RankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD331A105AAF002FCDAA /* RankingViewController.m */; };
 		989EBD6D1A105AAF002FCDAA /* IKCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD371A105AAF002FCDAA /* IKCell.m */; };
 		989EBD6E1A105AAF002FCDAA /* IKMediaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD391A105AAF002FCDAA /* IKMediaCell.m */; };
@@ -63,6 +61,17 @@
 		989EBD7E1A1063A7002FCDAA /* Camera_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD7C1A1063A7002FCDAA /* Camera_40x40.png */; };
 		989EBD7F1A1063A7002FCDAA /* Camera_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD7D1A1063A7002FCDAA /* Camera_80x80.png */; };
 		989EBD811A10644B002FCDAA /* Camera_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD801A10644B002FCDAA /* Camera_120x120.png */; };
+		989EBD851A1075DB002FCDAA /* test_@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD821A1075DB002FCDAA /* test_@1x.png */; };
+		989EBD861A1075DB002FCDAA /* test_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD831A1075DB002FCDAA /* test_@2x.png */; };
+		989EBD871A1075DB002FCDAA /* test_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD841A1075DB002FCDAA /* test_@3x.png */; };
+		989EBD8E1A10846D002FCDAA /* SampleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD891A10846D002FCDAA /* SampleTableViewCell.m */; };
+		989EBD8F1A10846D002FCDAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD8B1A10846D002FCDAA /* ViewController.m */; };
+		989EBD901A10846D002FCDAA /* Webreturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EBD8D1A10846D002FCDAA /* Webreturn.m */; };
+		989EBD951A108FFF002FCDAA /* Ranking_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD911A108FFF002FCDAA /* Ranking_40x40.png */; };
+		989EBD961A108FFF002FCDAA /* Ranking_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD921A108FFF002FCDAA /* Ranking_80x80.png */; };
+		989EBD971A108FFF002FCDAA /* Ranking_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD931A108FFF002FCDAA /* Ranking_120x120.png */; };
+		989EBD981A108FFF002FCDAA /* Ranking.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD941A108FFF002FCDAA /* Ranking.png */; };
+		989EBD9A1A109108002FCDAA /* Japanese_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD991A109108002FCDAA /* Japanese_120x120.png */; };
 		BB0CBE571B8CCFFB5DD28AED /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10BCE10323F946F2DF37FAB0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -102,7 +111,6 @@
 		989EBD0E1A105AAF002FCDAA /* Button_Shikan_150x120.artx */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Button_Shikan_150x120.artx; sourceTree = "<group>"; };
 		989EBD0F1A105AAF002FCDAA /* Button_Shikan_150x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Shikan_150x120.png; sourceTree = "<group>"; };
 		989EBD111A105AAF002FCDAA /* hata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hata.png; sourceTree = "<group>"; };
-		989EBD121A105AAF002FCDAA /* Japanese_160x160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japanese_160x160.png; sourceTree = "<group>"; };
 		989EBD131A105AAF002FCDAA /* Japanese_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japanese_40x40.png; sourceTree = "<group>"; };
 		989EBD141A105AAF002FCDAA /* Japanese_80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japanese_80x80.png; sourceTree = "<group>"; };
 		989EBD151A105AAF002FCDAA /* Japanese_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japanese_color.png; sourceTree = "<group>"; };
@@ -129,7 +137,6 @@
 		989EBD2A1A105AAF002FCDAA /* yajiritsukichigaiya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yajiritsukichigaiya.png; sourceTree = "<group>"; };
 		989EBD2D1A105AAF002FCDAA /* JapanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JapanViewController.h; sourceTree = "<group>"; };
 		989EBD2E1A105AAF002FCDAA /* JapanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JapanViewController.m; sourceTree = "<group>"; };
-		989EBD2F1A105AAF002FCDAA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		989EBD321A105AAF002FCDAA /* RankingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingViewController.h; sourceTree = "<group>"; };
 		989EBD331A105AAF002FCDAA /* RankingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingViewController.m; sourceTree = "<group>"; };
 		989EBD361A105AAF002FCDAA /* IKCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKCell.h; sourceTree = "<group>"; };
@@ -149,6 +156,20 @@
 		989EBD7C1A1063A7002FCDAA /* Camera_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera_40x40.png; sourceTree = "<group>"; };
 		989EBD7D1A1063A7002FCDAA /* Camera_80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera_80x80.png; sourceTree = "<group>"; };
 		989EBD801A10644B002FCDAA /* Camera_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera_120x120.png; sourceTree = "<group>"; };
+		989EBD821A1075DB002FCDAA /* test_@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test_@1x.png"; sourceTree = "<group>"; };
+		989EBD831A1075DB002FCDAA /* test_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test_@2x.png"; sourceTree = "<group>"; };
+		989EBD841A1075DB002FCDAA /* test_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test_@3x.png"; sourceTree = "<group>"; };
+		989EBD881A10846D002FCDAA /* SampleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleTableViewCell.h; sourceTree = "<group>"; };
+		989EBD891A10846D002FCDAA /* SampleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTableViewCell.m; sourceTree = "<group>"; };
+		989EBD8A1A10846D002FCDAA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		989EBD8B1A10846D002FCDAA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		989EBD8C1A10846D002FCDAA /* Webreturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Webreturn.h; sourceTree = "<group>"; };
+		989EBD8D1A10846D002FCDAA /* Webreturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Webreturn.m; sourceTree = "<group>"; };
+		989EBD911A108FFF002FCDAA /* Ranking_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ranking_40x40.png; sourceTree = "<group>"; };
+		989EBD921A108FFF002FCDAA /* Ranking_80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ranking_80x80.png; sourceTree = "<group>"; };
+		989EBD931A108FFF002FCDAA /* Ranking_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ranking_120x120.png; sourceTree = "<group>"; };
+		989EBD941A108FFF002FCDAA /* Ranking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ranking.png; sourceTree = "<group>"; };
+		989EBD991A109108002FCDAA /* Japanese_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japanese_120x120.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,9 +230,14 @@
 				989EBD061A105AAF002FCDAA /* CameraViewController.m */,
 				989EBD2D1A105AAF002FCDAA /* JapanViewController.h */,
 				989EBD2E1A105AAF002FCDAA /* JapanViewController.m */,
-				989EBD2F1A105AAF002FCDAA /* main.m */,
 				989EBD321A105AAF002FCDAA /* RankingViewController.h */,
 				989EBD331A105AAF002FCDAA /* RankingViewController.m */,
+				989EBD881A10846D002FCDAA /* SampleTableViewCell.h */,
+				989EBD891A10846D002FCDAA /* SampleTableViewCell.m */,
+				989EBD8A1A10846D002FCDAA /* ViewController.h */,
+				989EBD8B1A10846D002FCDAA /* ViewController.m */,
+				989EBD8C1A10846D002FCDAA /* Webreturn.h */,
+				989EBD8D1A10846D002FCDAA /* Webreturn.m */,
 				989EBD341A105AAF002FCDAA /* View */,
 				989EBD001A105AAF002FCDAA /* Base.lproj */,
 				989EBCE51A10593F002FCDAA /* Images.xcassets */,
@@ -261,6 +287,13 @@
 		989EBD071A105AAF002FCDAA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				989EBD911A108FFF002FCDAA /* Ranking_40x40.png */,
+				989EBD921A108FFF002FCDAA /* Ranking_80x80.png */,
+				989EBD931A108FFF002FCDAA /* Ranking_120x120.png */,
+				989EBD941A108FFF002FCDAA /* Ranking.png */,
+				989EBD821A1075DB002FCDAA /* test_@1x.png */,
+				989EBD831A1075DB002FCDAA /* test_@2x.png */,
+				989EBD841A1075DB002FCDAA /* test_@3x.png */,
 				989EBD7C1A1063A7002FCDAA /* Camera_40x40.png */,
 				989EBD7D1A1063A7002FCDAA /* Camera_80x80.png */,
 				989EBD801A10644B002FCDAA /* Camera_120x120.png */,
@@ -273,9 +306,9 @@
 				989EBD0E1A105AAF002FCDAA /* Button_Shikan_150x120.artx */,
 				989EBD0F1A105AAF002FCDAA /* Button_Shikan_150x120.png */,
 				989EBD111A105AAF002FCDAA /* hata.png */,
-				989EBD121A105AAF002FCDAA /* Japanese_160x160.png */,
 				989EBD131A105AAF002FCDAA /* Japanese_40x40.png */,
 				989EBD141A105AAF002FCDAA /* Japanese_80x80.png */,
+				989EBD991A109108002FCDAA /* Japanese_120x120.png */,
 				989EBD151A105AAF002FCDAA /* Japanese_color.png */,
 				989EBD161A105AAF002FCDAA /* little25_2.png */,
 				989EBD171A105AAF002FCDAA /* machine2.png */,
@@ -423,14 +456,15 @@
 				989EBD4F1A105AAF002FCDAA /* Japanese_40x40.png in Resources */,
 				989EBD621A105AAF002FCDAA /* Yajiri_160x160.png in Resources */,
 				989EBD531A105AAF002FCDAA /* machine2.png in Resources */,
+				989EBD971A108FFF002FCDAA /* Ranking_120x120.png in Resources */,
 				989EBD611A105AAF002FCDAA /* yajir_.png in Resources */,
 				989EBD471A105AAF002FCDAA /* Button_Camera_100x50.png in Resources */,
-				989EBD4E1A105AAF002FCDAA /* Japanese_160x160.png in Resources */,
 				989EBCE41A10593F002FCDAA /* Main.storyboard in Resources */,
 				989EBD771A105E26002FCDAA /* Shiro100vs_問題.rtf in Resources */,
 				989EBD7E1A1063A7002FCDAA /* Camera_40x40.png in Resources */,
 				989EBD591A105AAF002FCDAA /* Setting_40x40.png in Resources */,
 				989EBD5F1A105AAF002FCDAA /* tokushima3.png in Resources */,
+				989EBD951A108FFF002FCDAA /* Ranking_40x40.png in Resources */,
 				989EBD811A10644B002FCDAA /* Camera_120x120.png in Resources */,
 				989EBD5C1A105AAF002FCDAA /* Slideshow_40x40.png in Resources */,
 				989EBD4A1A105AAF002FCDAA /* Button_Shikan_150x120.artx in Resources */,
@@ -442,23 +476,29 @@
 				989EBD451A105AAF002FCDAA /* Button_Album_100x50.png in Resources */,
 				989EBD491A105AAF002FCDAA /* Button_Modoru_100x50.png in Resources */,
 				989EBD501A105AAF002FCDAA /* Japanese_80x80.png in Resources */,
+				989EBD981A108FFF002FCDAA /* Ranking.png in Resources */,
 				989EBD751A105E26002FCDAA /* Shiro100vs_Framework.rtf in Resources */,
 				989EBCE91A10593F002FCDAA /* LaunchScreen.xib in Resources */,
 				989EBD441A105AAF002FCDAA /* Button_Album_100x50.artx in Resources */,
+				989EBD851A1075DB002FCDAA /* test_@1x.png in Resources */,
 				989EBD7F1A1063A7002FCDAA /* Camera_80x80.png in Resources */,
 				989EBD661A105AAF002FCDAA /* yajiritsukichigaiya.png in Resources */,
 				989EBD581A105AAF002FCDAA /* play2.png in Resources */,
 				989EBD4D1A105AAF002FCDAA /* hata.png in Resources */,
 				989EBD511A105AAF002FCDAA /* Japanese_color.png in Resources */,
 				989EBD651A105AAF002FCDAA /* Yajiri_80x80.png in Resources */,
+				989EBD861A1075DB002FCDAA /* test_@2x.png in Resources */,
 				989EBD761A105E26002FCDAA /* Shiro100vs_位.rtf in Resources */,
 				989EBD551A105AAF002FCDAA /* Mikata_142x127.artx in Resources */,
 				989EBCE61A10593F002FCDAA /* Images.xcassets in Resources */,
 				989EBD5E1A105AAF002FCDAA /* Teki_142x127.png in Resources */,
+				989EBD961A108FFF002FCDAA /* Ranking_80x80.png in Resources */,
 				989EBD481A105AAF002FCDAA /* Button_Modoru_100x50.artx in Resources */,
 				989EBD5B1A105AAF002FCDAA /* silhouette5.png in Resources */,
 				989EBD5D1A105AAF002FCDAA /* Teki_142x127.artx in Resources */,
+				989EBD871A1075DB002FCDAA /* test_@3x.png in Resources */,
 				989EBD561A105AAF002FCDAA /* Mikata_142x127.png in Resources */,
+				989EBD9A1A109108002FCDAA /* Japanese_120x120.png in Resources */,
 				989EBD461A105AAF002FCDAA /* Button_Camera_100x50.artx in Resources */,
 				989EBD541A105AAF002FCDAA /* maps.png in Resources */,
 				989EBD521A105AAF002FCDAA /* little25_2.png in Resources */,
@@ -518,8 +558,10 @@
 				989EBD6C1A105AAF002FCDAA /* RankingViewController.m in Sources */,
 				989EBD691A105AAF002FCDAA /* JapanViewController.m in Sources */,
 				989EBD6D1A105AAF002FCDAA /* IKCell.m in Sources */,
+				989EBD8F1A10846D002FCDAA /* ViewController.m in Sources */,
+				989EBD8E1A10846D002FCDAA /* SampleTableViewCell.m in Sources */,
 				989EBD6E1A105AAF002FCDAA /* IKMediaCell.m in Sources */,
-				989EBD6A1A105AAF002FCDAA /* main.m in Sources */,
+				989EBD901A10846D002FCDAA /* Webreturn.m in Sources */,
 				989EBD401A105AAF002FCDAA /* AppDelegate.m in Sources */,
 				989EBD701A105AAF002FCDAA /* IKLoginViewController.m in Sources */,
 				989EBD711A105AAF002FCDAA /* IKMediaViewController.m in Sources */,

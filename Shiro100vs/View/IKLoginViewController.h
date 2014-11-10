@@ -27,7 +27,7 @@
     __weak IBOutlet UIWebView *mWebView;
 }
 
-@property (nonatomic, assign) IKLoginScope scope;
+//@property (nonatomic, assign) IKLoginScope scope;
 @property (nonatomic, weak) IKCollectionViewController *collectionViewController;
 - (IBAction)back:(id)sender;
 @end

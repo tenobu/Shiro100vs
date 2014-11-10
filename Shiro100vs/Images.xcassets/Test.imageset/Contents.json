@@ -3,17 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "Ranking_40x40.png"
+      "filename" : "test_@1x.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "Ranking_80x80.png"
+      "filename" : "test_@2x.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "Ranking_120x120.png"
+      "filename" : "test_@3x.png"
     }
   ],
   "info" : {
