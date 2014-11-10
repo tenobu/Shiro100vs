@@ -31,7 +31,7 @@
 
 @implementation JapanViewController
 
-//
+//位付き
 - (void)viewDidLoad
 {
 
