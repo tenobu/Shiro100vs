@@ -39,7 +39,7 @@
 
 	[self.imageView setAutoresizingMask: UIViewAutoresizingFlexibleHeight];
 	[self.imageView      setContentMode: UIViewContentModeScaleAspectFit];
-
+	
 	[NSTimer scheduledTimerWithTimeInterval: 0.1f
 									 target: self
 								   selector: @selector( button_Camera_Action: )
@@ -62,7 +62,7 @@
 
 - (void)viewDidAppear:(BOOL)animated
 {
-	
+
 }
 
 - (void)viewWillDisappear:(BOOL)animated

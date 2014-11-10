@@ -13,7 +13,6 @@
 @property (strong, nonatomic) UIWindow *window;
 
 @property NSString *string_Shikan;
-@property NSString *string_Kurai;
 
 - (void)setShiroData;
 

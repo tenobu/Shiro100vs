@@ -182,7 +182,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rGn-Py-VXe">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWs-mm-Zb8">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWs-mm-Zb8" userLabel="Button_Camera">
                                 <rect key="frame" x="484" y="28" width="100" height="50"/>
                                 <state key="normal" image="Button_Camera_100x50.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -191,17 +191,8 @@
                                     <action selector="button_Camera_Action:" destination="y0g-ji-Ubm" eventType="touchUpInside" id="5n5-wZ-eU8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D75-RF-5gr">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gW-ig-gDU" userLabel="Button_Album">
                                 <rect key="frame" x="16" y="28" width="100" height="50"/>
-                                <state key="normal" image="Button_Modoru_100x50.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="K1a-Nh-6VM" kind="modal" id="hNW-mS-VX7"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gW-ig-gDU">
-                                <rect key="frame" x="16" y="493" width="100" height="50"/>
                                 <state key="normal" image="Button_Album_100x50.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -216,10 +207,10 @@
                             <constraint firstItem="0ah-s3-M4B" firstAttribute="top" secondItem="rGn-Py-VXe" secondAttribute="bottom" id="5Rq-yk-SNg"/>
                             <constraint firstItem="bWs-mm-Zb8" firstAttribute="top" secondItem="6kl-RH-rtp" secondAttribute="bottom" constant="8" id="5Zx-76-jkk"/>
                             <constraint firstItem="rGn-Py-VXe" firstAttribute="top" secondItem="neO-dU-MOj" secondAttribute="top" id="Bj5-0p-l39"/>
-                            <constraint firstItem="0ah-s3-M4B" firstAttribute="top" secondItem="9gW-ig-gDU" secondAttribute="bottom" constant="8" id="bvL-Ww-xdy"/>
                             <constraint firstAttribute="trailing" secondItem="bWs-mm-Zb8" secondAttribute="trailing" constant="16" id="fGH-ur-MFG"/>
+                            <constraint firstItem="9gW-ig-gDU" firstAttribute="leading" secondItem="neO-dU-MOj" secondAttribute="leading" constant="16" id="kEK-dw-hAk"/>
                             <constraint firstItem="rGn-Py-VXe" firstAttribute="leading" secondItem="neO-dU-MOj" secondAttribute="leading" id="leX-E8-l1d"/>
-                            <constraint firstItem="9gW-ig-gDU" firstAttribute="leading" secondItem="neO-dU-MOj" secondAttribute="leading" constant="16" id="pGc-xi-CA6"/>
+                            <constraint firstItem="9gW-ig-gDU" firstAttribute="top" secondItem="6kl-RH-rtp" secondAttribute="bottom" constant="8" id="rCl-4d-HFY"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Camera" image="Camera" id="Nn2-uE-57E"/>
@@ -417,7 +408,6 @@
     <resources>
         <image name="Button_Album_100x50.png" width="100" height="50"/>
         <image name="Button_Camera_100x50.png" width="100" height="50"/>
-        <image name="Button_Modoru_100x50.png" width="100" height="50"/>
         <image name="Button_Shikan_150x120.png" width="150" height="120"/>
         <image name="Camera" width="40" height="40"/>
         <image name="Japan" width="40" height="40"/>

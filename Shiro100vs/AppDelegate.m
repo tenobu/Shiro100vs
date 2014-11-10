@@ -60,14 +60,6 @@
 		self.string_Shikan = @"徳島城";
 		
 	}
-	
-	self.string_Kurai = [ud objectForKey: @"shiro100_kurai"];
-	
-	if ( self.string_Kurai == nil ) {
-		
-		self.string_Kurai = @"足軽";
-		
-	}
 
 }
 
@@ -77,7 +69,6 @@
 	NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
 
 	[ud setObject: self.string_Shikan forKey: @"shiro100_shikan"];
-	[ud setObject: self.string_Kurai  forKey: @"shiro100_kurai"];
 	
 }
 
