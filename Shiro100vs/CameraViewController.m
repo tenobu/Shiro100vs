@@ -28,6 +28,7 @@
 
 @implementation CameraViewController
 
+// 地図の初期化
 - (void)viewDidLoad
 {
 
