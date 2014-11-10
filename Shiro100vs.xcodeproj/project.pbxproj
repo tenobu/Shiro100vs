@@ -22,7 +22,6 @@
 		989EBD491A105AAF002FCDAA /* Button_Modoru_100x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD0D1A105AAF002FCDAA /* Button_Modoru_100x50.png */; };
 		989EBD4A1A105AAF002FCDAA /* Button_Shikan_150x120.artx in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD0E1A105AAF002FCDAA /* Button_Shikan_150x120.artx */; };
 		989EBD4B1A105AAF002FCDAA /* Button_Shikan_150x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD0F1A105AAF002FCDAA /* Button_Shikan_150x120.png */; };
-		989EBD4C1A105AAF002FCDAA /* camera59.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD101A105AAF002FCDAA /* camera59.png */; };
 		989EBD4D1A105AAF002FCDAA /* hata.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD111A105AAF002FCDAA /* hata.png */; };
 		989EBD4E1A105AAF002FCDAA /* Japanese_160x160.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD121A105AAF002FCDAA /* Japanese_160x160.png */; };
 		989EBD4F1A105AAF002FCDAA /* Japanese_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD131A105AAF002FCDAA /* Japanese_40x40.png */; };
@@ -62,6 +61,9 @@
 		989EBD761A105E26002FCDAA /* Shiro100vs_位.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD731A105E26002FCDAA /* Shiro100vs_位.rtf */; };
 		989EBD771A105E26002FCDAA /* Shiro100vs_問題.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD741A105E26002FCDAA /* Shiro100vs_問題.rtf */; };
 		989EBD791A105E4E002FCDAA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD781A105E4E002FCDAA /* Podfile */; };
+		989EBD7E1A1063A7002FCDAA /* Camera_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD7C1A1063A7002FCDAA /* Camera_40x40.png */; };
+		989EBD7F1A1063A7002FCDAA /* Camera_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD7D1A1063A7002FCDAA /* Camera_80x80.png */; };
+		989EBD811A10644B002FCDAA /* Camera_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD801A10644B002FCDAA /* Camera_120x120.png */; };
 		BB0CBE571B8CCFFB5DD28AED /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10BCE10323F946F2DF37FAB0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -100,7 +102,6 @@
 		989EBD0D1A105AAF002FCDAA /* Button_Modoru_100x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Modoru_100x50.png; sourceTree = "<group>"; };
 		989EBD0E1A105AAF002FCDAA /* Button_Shikan_150x120.artx */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Button_Shikan_150x120.artx; sourceTree = "<group>"; };
 		989EBD0F1A105AAF002FCDAA /* Button_Shikan_150x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Shikan_150x120.png; sourceTree = "<group>"; };
-		989EBD101A105AAF002FCDAA /* camera59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera59.png; sourceTree = "<group>"; };
 		989EBD111A105AAF002FCDAA /* hata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hata.png; sourceTree = "<group>"; };
 		989EBD121A105AAF002FCDAA /* Japanese_160x160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japanese_160x160.png; sourceTree = "<group>"; };
 		989EBD131A105AAF002FCDAA /* Japanese_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japanese_40x40.png; sourceTree = "<group>"; };
@@ -148,6 +149,9 @@
 		989EBD731A105E26002FCDAA /* Shiro100vs_位.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Shiro100vs_位.rtf"; sourceTree = SOURCE_ROOT; };
 		989EBD741A105E26002FCDAA /* Shiro100vs_問題.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Shiro100vs_問題.rtf"; sourceTree = SOURCE_ROOT; };
 		989EBD781A105E4E002FCDAA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		989EBD7C1A1063A7002FCDAA /* Camera_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera_40x40.png; sourceTree = "<group>"; };
+		989EBD7D1A1063A7002FCDAA /* Camera_80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera_80x80.png; sourceTree = "<group>"; };
+		989EBD801A10644B002FCDAA /* Camera_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera_120x120.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +266,9 @@
 		989EBD071A105AAF002FCDAA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				989EBD7C1A1063A7002FCDAA /* Camera_40x40.png */,
+				989EBD7D1A1063A7002FCDAA /* Camera_80x80.png */,
+				989EBD801A10644B002FCDAA /* Camera_120x120.png */,
 				989EBD081A105AAF002FCDAA /* Button_Album_100x50.artx */,
 				989EBD091A105AAF002FCDAA /* Button_Album_100x50.png */,
 				989EBD0A1A105AAF002FCDAA /* Button_Camera_100x50.artx */,
@@ -270,7 +277,6 @@
 				989EBD0D1A105AAF002FCDAA /* Button_Modoru_100x50.png */,
 				989EBD0E1A105AAF002FCDAA /* Button_Shikan_150x120.artx */,
 				989EBD0F1A105AAF002FCDAA /* Button_Shikan_150x120.png */,
-				989EBD101A105AAF002FCDAA /* camera59.png */,
 				989EBD111A105AAF002FCDAA /* hata.png */,
 				989EBD121A105AAF002FCDAA /* Japanese_160x160.png */,
 				989EBD131A105AAF002FCDAA /* Japanese_40x40.png */,
@@ -427,9 +433,10 @@
 				989EBD4E1A105AAF002FCDAA /* Japanese_160x160.png in Resources */,
 				989EBCE41A10593F002FCDAA /* Main.storyboard in Resources */,
 				989EBD771A105E26002FCDAA /* Shiro100vs_問題.rtf in Resources */,
+				989EBD7E1A1063A7002FCDAA /* Camera_40x40.png in Resources */,
 				989EBD591A105AAF002FCDAA /* Setting_40x40.png in Resources */,
 				989EBD5F1A105AAF002FCDAA /* tokushima3.png in Resources */,
-				989EBD4C1A105AAF002FCDAA /* camera59.png in Resources */,
+				989EBD811A10644B002FCDAA /* Camera_120x120.png in Resources */,
 				989EBD5C1A105AAF002FCDAA /* Slideshow_40x40.png in Resources */,
 				989EBD4A1A105AAF002FCDAA /* Button_Shikan_150x120.artx in Resources */,
 				989EBD4B1A105AAF002FCDAA /* Button_Shikan_150x120.png in Resources */,
@@ -443,6 +450,7 @@
 				989EBD751A105E26002FCDAA /* Shiro100vs_Framework.rtf in Resources */,
 				989EBCE91A10593F002FCDAA /* LaunchScreen.xib in Resources */,
 				989EBD441A105AAF002FCDAA /* Button_Album_100x50.artx in Resources */,
+				989EBD7F1A1063A7002FCDAA /* Camera_80x80.png in Resources */,
 				989EBD661A105AAF002FCDAA /* yajiritsukichigaiya.png in Resources */,
 				989EBD581A105AAF002FCDAA /* play2.png in Resources */,
 				989EBD4D1A105AAF002FCDAA /* hata.png in Resources */,
