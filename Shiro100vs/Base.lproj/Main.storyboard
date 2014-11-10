@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--全国のランキング-->
@@ -22,13 +21,13 @@
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="城" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E39-48-rrk">
                                             <rect key="frame" x="8" y="37" width="584" height="30"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                            <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="35"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第９９９位" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3xE-3M-h73">
                                             <rect key="frame" x="8" y="8" width="584" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -45,46 +44,6 @@
                                     <outlet property="shirolabel" destination="E39-48-rrk" id="PRA-48-Pif"/>
                                     <outlet property="taglabel" destination="yvs-Tl-sUV" id="EgA-Er-tFa"/>
                                 </connections>
-                            </tableViewCell>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="168" id="nRd-Un-vh1">
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nRd-Un-vh1" id="0yo-32-EKt">
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QF3-6N-Md2">
-                                            <rect key="frame" x="166" y="8" width="48.5" height="25"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第９９９位" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H0O-Cr-UW7">
-                                            <rect key="frame" x="166" y="41" width="262" height="95"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="262" id="5W1-Zz-Q9z"/>
-                                                <constraint firstAttribute="height" constant="95" id="spc-dg-MmB"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z8z-75-oRk">
-                                            <rect key="frame" x="8" y="8" width="150" height="150"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="150" id="2qK-o5-V6S"/>
-                                            </constraints>
-                                        </imageView>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="z8z-75-oRk" firstAttribute="leading" secondItem="0yo-32-EKt" secondAttribute="leading" constant="8" id="5uj-r1-1xz"/>
-                                        <constraint firstItem="z8z-75-oRk" firstAttribute="top" secondItem="0yo-32-EKt" secondAttribute="top" constant="8" id="6Xo-jj-KtT"/>
-                                        <constraint firstItem="z8z-75-oRk" firstAttribute="top" secondItem="QF3-6N-Md2" secondAttribute="top" id="7Ot-Ka-DhJ"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="H0O-Cr-UW7" secondAttribute="bottom" constant="23.5" id="aSf-rX-9Xw"/>
-                                        <constraint firstItem="H0O-Cr-UW7" firstAttribute="leading" secondItem="z8z-75-oRk" secondAttribute="trailing" constant="8" symbolic="YES" id="lKs-oH-H1I"/>
-                                        <constraint firstItem="z8z-75-oRk" firstAttribute="centerY" secondItem="0yo-32-EKt" secondAttribute="centerY" id="orD-81-Y7W"/>
-                                        <constraint firstItem="H0O-Cr-UW7" firstAttribute="top" secondItem="QF3-6N-Md2" secondAttribute="bottom" constant="8" symbolic="YES" id="tR5-vR-hjW"/>
-                                        <constraint firstItem="QF3-6N-Md2" firstAttribute="leading" secondItem="z8z-75-oRk" secondAttribute="trailing" constant="8" symbolic="YES" id="v82-tT-uB7"/>
-                                    </constraints>
-                                </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -167,7 +126,7 @@
             </objects>
             <point key="canvasLocation" x="66" y="-465"/>
         </scene>
-        <!--Camera-->
+        <!--カメラ-->
         <scene sceneID="WMl-mW-tNY">
             <objects>
                 <viewController id="y0g-ji-Ubm" customClass="CameraViewController" sceneMemberID="viewController">
@@ -188,7 +147,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="button_Camera_Action:" destination="y0g-ji-Ubm" eventType="touchUpInside" id="5n5-wZ-eU8"/>
+                                    <action selector="button_Camera_Action:" destination="y0g-ji-Ubm" eventType="touchUpInside" id="wRo-Pr-QsG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gW-ig-gDU" userLabel="Button_Album">
@@ -213,7 +172,7 @@
                             <constraint firstItem="9gW-ig-gDU" firstAttribute="top" secondItem="6kl-RH-rtp" secondAttribute="bottom" constant="8" id="rCl-4d-HFY"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Camera" image="Camera" id="Nn2-uE-57E"/>
+                    <tabBarItem key="tabBarItem" title="カメラ" image="Camera" id="Nn2-uE-57E"/>
                     <navigationItem key="navigationItem" id="r2v-7i-6Yw"/>
                     <connections>
                         <outlet property="imageView" destination="rGn-Py-VXe" id="Mnw-8P-n0h"/>

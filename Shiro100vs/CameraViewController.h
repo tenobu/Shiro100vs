@@ -10,4 +10,7 @@
 
 @interface CameraViewController : UIViewController < UIImagePickerControllerDelegate, UIDocumentInteractionControllerDelegate >
 
+- (void)setAlertTitle: (NSString *)title
+			  message: (NSString *)message;
+
 @end
