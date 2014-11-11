@@ -255,7 +255,7 @@
 {
 	
 	self.label_Genzai.text = [NSString stringWithFormat:
-							  @"現在の状況\n    %@ に %@ として士官", app.string_Shikan, app.string_Kurai];
+							  @"現在の状況\n    %@ に %@ として士官している。", app.string_Shikan, app.string_Kurai];
 
 }
 

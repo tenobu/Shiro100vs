@@ -82,10 +82,20 @@
 	
 	picker.delegate = self;
 	
-	picker.sourceType    = UIImagePickerControllerSourceTypeCamera;
-	picker.allowsEditing = YES;
-	
-	[self presentViewController: picker animated: YES completion: nil];
+	// カメラが行けるか調査
+	if ( [UIImagePickerController isSourceTypeAvailable: UIImagePickerControllerSourceTypeCamera] ) {
+
+		picker.sourceType    = UIImagePickerControllerSourceTypeCamera;
+		picker.allowsEditing = YES;
+		
+		[self presentViewController: picker animated: YES completion: nil];
+
+	} else {
+		
+		[self setAlertTitle: @"エラー"
+					message: @"カメラが使えません !!"];
+
+	}
 	
 }
 
@@ -96,10 +106,15 @@
 	
 	picker.delegate = self;
 	
-	picker.sourceType    = UIImagePickerControllerSourceTypePhotoLibrary;
-	picker.allowsEditing = YES;
-	
-	[self presentViewController: picker animated: YES completion: nil];
+	// 写真ライブラリが行けるか調査
+	if ( [UIImagePickerController isSourceTypeAvailable: UIImagePickerControllerSourceTypePhotoLibrary] ) {
+		
+		picker.sourceType    = UIImagePickerControllerSourceTypePhotoLibrary;
+		picker.allowsEditing = YES;
+		
+		[self presentViewController: picker animated: YES completion: nil];
+		
+	}
 	
 }
 
@@ -107,34 +122,28 @@
 didFinishPickingMediaWithInfo: (NSDictionary *)info
 {
 	
-//	UIImage *chImage = info [UIImagePickerControllerOriginalImage];
-//	
-////	CGImageRef cgRef = chImage.CGImage;
-////	
-////	chImage = [[UIImage alloc] initWithCGImage: cgRef
-////										 scale: 1.0
-////								   orientation: UIImageOrientationUp];
-////	
-////	[self.imageView setImage: chImage];
-//	[self.imageView setImage: chImage];
-	
 	self.imageView.image = [info objectForKey: UIImagePickerControllerEditedImage];
+
 	if ( self.imageView.image == nil ) {
 	
 		self.imageView.image = [info objectForKey: UIImagePickerControllerOriginalImage];
 	
 	}
 	
-	// imageをLibraryに保存
-	ALAssetsLibrary *lib = [[ALAssetsLibrary alloc] init];
-	
-	[lib writeImageToSavedPhotosAlbum: self.imageView.image.CGImage
-							 metadata: nil
-					  completionBlock: ^( NSURL* url, NSError* error ) {
-						  
-						  NSLog(@"Saved: %@<%@>", url, error);
-						  
-					  }];
+	if ( [picker sourceType] == UIImagePickerControllerSourceTypeCamera ) {
+		
+		// imageをLibraryに保存
+		ALAssetsLibrary *lib = [[ALAssetsLibrary alloc] init];
+		
+		[lib writeImageToSavedPhotosAlbum: self.imageView.image.CGImage
+								 metadata: nil
+						  completionBlock: ^( NSURL* url, NSError* error ) {
+							  
+							  NSLog(@"Saved: %@<%@>", url, error);
+							  
+						  }];
+
+	}
 	
 	[picker dismissViewControllerAnimated: YES completion: nil];
 	
@@ -158,7 +167,8 @@ didFinishPickingMediaWithInfo: (NSDictionary *)info
 	
 	if ( ! [[UIApplication sharedApplication] canOpenURL: instagramURL] ) {
 		
-		NSLog( @"Instagramがインストールされていない" );
+		[self setAlertTitle: @"致命的なエラー"
+					message: @"Instagram が\nインストールされていない !!"];
 		
 		return;
 		
@@ -169,10 +179,6 @@ didFinishPickingMediaWithInfo: (NSDictionary *)info
 	NSURL *fileURL = [NSURL fileURLWithPath: filePath];
 	
 	[UIImagePNGRepresentation(image) writeToFile: filePath atomically: YES];
-	
-	//	CGRect rect = CGRectMake( 0, 0, 0, 0 );
-	//	NSString *jpgPath = [NSHomeDirectory() stringByAppendingPathComponent: @"Documents/image.ig"];
-	//	NSURL *igImageHookFile = [[NSURL alloc] initWithString: [NSString stringWithFormat: @"file://%@", jpgPath]];
 	
 	self.dic = [UIDocumentInteractionController interactionControllerWithURL: fileURL];
 
@@ -189,52 +195,57 @@ didFinishPickingMediaWithInfo: (NSDictionary *)info
 	
 	if ( ! present ) {
 		
-		NSLog(@"このファイルを開けるアプリが存在しない。");
+		[self setAlertTitle: @"エラー"
+					message: @"このファイルを開ける\nアプリが存在しない。"];
 		
 	}
-	
-	
-	
-	//	NSString *savePath = [NSHomeDirectory() stringByAppendingPathComponent: @"Documents/Test.ig"];
-	//
-	//	[UIImagePNGRepresentation(image) writeToFile: savePath atomically: YES];
-	//
-	//	CGRect rect = CGRectMake( 0, 0, 0, 0 );
-	//	NSString *jpgPath = [NSHomeDirectory() stringByAppendingPathComponent: @"Documents/Test.ig"];
-	//	NSURL *igImageHookFile = [[NSURL alloc] initWithString: [NSString stringWithFormat: @"file://%@", jpgPath]];
-	//
-	//	self.dic.UTI = @"com.instagran.photo";
-	//	self.dic = [self setupControllerWithURL: igImageHookFile usingDelegate: self];
-	//	self.dic = [UIDocumentInteractionController interactionControllerWithURL: igImageHookFile];
-	//
-	//	[self.dic presentOpenInMenuFromRect: rect inView: self.view animated: YES];
-	//
-	////	NSURL *instagramURL = [NSURL URLWithString: @"instagram://media?id=MEDIA_ID&tag?name=#徳島城"];
-	////	NSURL *instagramURL = [NSURL URLWithString: @"instagram://media?id=MEDIA_ID"];
-	//	NSURL *instagramURL = [NSURL URLWithString: @"instagram://tag?name=AAAA"];
-	//
-	//	if ( [[UIApplication sharedApplication] canOpenURL: instagramURL] ) {
-	//
-	//		[[UIApplication sharedApplication] openURL: instagramURL];
-	//
-	//		[self.dic presentOpenInMenuFromRect: rect inView: self.view animated: YES];
-	//
-	//	} else {
-	//
-	//		NSLog( @"No Instagram Found" );
-	//
-	//	}
 	
 }
 
 - (UIDocumentInteractionController *)setupControllerWithURL: (NSURL *)fileURL usingDelegate: (id < UIDocumentInteractionControllerDelegate >)interactionDelegate
 {
 	
-	UIDocumentInteractionController *interactionController = [UIDocumentInteractionController interactionControllerWithURL: fileURL];
+	UIDocumentInteractionController *interactionController;
+	
+	interactionController = [UIDocumentInteractionController interactionControllerWithURL: fileURL];
 	
 	interactionController.delegate = interactionDelegate;
 	
 	return interactionController;
+	
+}
+
+- (void)setAlertTitle: (NSString *)title
+			  message: (NSString *)message
+{
+	
+	Class class = NSClassFromString( @"UIAlertController" );
+	
+	if ( class ) {
+		// iOS 8の時の処理
+		// UIAlertControllerを使ってアラートを表示
+		UIAlertController *alert = [UIAlertController alertControllerWithTitle: title
+																	   message: message
+																preferredStyle: UIAlertControllerStyleAlert];
+		
+		[alert addAction: [UIAlertAction actionWithTitle: @"OK"
+												   style: UIAlertActionStyleDefault
+												 handler: nil]];
+		
+		[self presentViewController: alert animated: YES completion: nil];
+		
+	} else {
+		// iOS 7の時の処理
+		// UIAlertViewを使ってアラートを表示
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle: title
+														message: message
+													   delegate: nil
+											  cancelButtonTitle: nil
+											  otherButtonTitles: @"OK", nil];
+		
+		[alert show];
+		
+	}
 	
 }
 
