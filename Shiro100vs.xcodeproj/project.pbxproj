@@ -71,6 +71,17 @@
 		989EBD971A108FFF002FCDAA /* Ranking_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD931A108FFF002FCDAA /* Ranking_120x120.png */; };
 		989EBD981A108FFF002FCDAA /* Ranking.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD941A108FFF002FCDAA /* Ranking.png */; };
 		989EBD9A1A109108002FCDAA /* Japanese_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBD991A109108002FCDAA /* Japanese_120x120.png */; };
+		989EBDB31A121A5C002FCDAA /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBDA81A121A5C002FCDAA /* Icon-40.png */; };
+		989EBDB41A121A5C002FCDAA /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBDA91A121A5C002FCDAA /* Icon-40@2x.png */; };
+		989EBDB51A121A5C002FCDAA /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBDAA1A121A5C002FCDAA /* Icon-60.png */; };
+		989EBDB61A121A5C002FCDAA /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBDAB1A121A5C002FCDAA /* Icon-60@2x.png */; };
+		989EBDB71A121A5C002FCDAA /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBDAC1A121A5C002FCDAA /* Icon-76.png */; };
+		989EBDB81A121A5C002FCDAA /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBDAD1A121A5C002FCDAA /* Icon-76@2x.png */; };
+		989EBDB91A121A5C002FCDAA /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBDAE1A121A5C002FCDAA /* Icon-Small.png */; };
+		989EBDBA1A121A5C002FCDAA /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBDAF1A121A5C002FCDAA /* Icon-Small@2x.png */; };
+		989EBDBB1A121A5C002FCDAA /* Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBDB01A121A5C002FCDAA /* Icon@3x.png */; };
+		989EBDBC1A121A5C002FCDAA /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBDB11A121A5C002FCDAA /* iTunesArtwork.png */; };
+		989EBDBD1A121A5C002FCDAA /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 989EBDB21A121A5C002FCDAA /* iTunesArtwork@2x.png */; };
 		BB0CBE571B8CCFFB5DD28AED /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10BCE10323F946F2DF37FAB0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -167,6 +178,17 @@
 		989EBD931A108FFF002FCDAA /* Ranking_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ranking_120x120.png; sourceTree = "<group>"; };
 		989EBD941A108FFF002FCDAA /* Ranking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ranking.png; sourceTree = "<group>"; };
 		989EBD991A109108002FCDAA /* Japanese_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japanese_120x120.png; sourceTree = "<group>"; };
+		989EBDA81A121A5C002FCDAA /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		989EBDA91A121A5C002FCDAA /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		989EBDAA1A121A5C002FCDAA /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		989EBDAB1A121A5C002FCDAA /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		989EBDAC1A121A5C002FCDAA /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		989EBDAD1A121A5C002FCDAA /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		989EBDAE1A121A5C002FCDAA /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		989EBDAF1A121A5C002FCDAA /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		989EBDB01A121A5C002FCDAA /* Icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@3x.png"; sourceTree = "<group>"; };
+		989EBDB11A121A5C002FCDAA /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		989EBDB21A121A5C002FCDAA /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +258,7 @@
 				989EBD341A105AAF002FCDAA /* View */,
 				989EBD001A105AAF002FCDAA /* Base.lproj */,
 				989EBCE51A10593F002FCDAA /* Images.xcassets */,
+				989EBDA71A121A5C002FCDAA /* iOS 7+ */,
 				989EBD071A105AAF002FCDAA /* Images */,
 				989EBCD81A10593F002FCDAA /* Supporting Files */,
 			);
@@ -355,6 +378,24 @@
 			path = "CollectionView Cells";
 			sourceTree = "<group>";
 		};
+		989EBDA71A121A5C002FCDAA /* iOS 7+ */ = {
+			isa = PBXGroup;
+			children = (
+				989EBDA81A121A5C002FCDAA /* Icon-40.png */,
+				989EBDA91A121A5C002FCDAA /* Icon-40@2x.png */,
+				989EBDAA1A121A5C002FCDAA /* Icon-60.png */,
+				989EBDAB1A121A5C002FCDAA /* Icon-60@2x.png */,
+				989EBDAC1A121A5C002FCDAA /* Icon-76.png */,
+				989EBDAD1A121A5C002FCDAA /* Icon-76@2x.png */,
+				989EBDAE1A121A5C002FCDAA /* Icon-Small.png */,
+				989EBDAF1A121A5C002FCDAA /* Icon-Small@2x.png */,
+				989EBDB01A121A5C002FCDAA /* Icon@3x.png */,
+				989EBDB11A121A5C002FCDAA /* iTunesArtwork.png */,
+				989EBDB21A121A5C002FCDAA /* iTunesArtwork@2x.png */,
+			);
+			path = "iOS 7+";
+			sourceTree = "<group>";
+		};
 		A932E64A492C06054E7EA11E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -454,37 +495,48 @@
 				989EBD971A108FFF002FCDAA /* Ranking_120x120.png in Resources */,
 				989EBD611A105AAF002FCDAA /* yajir_.png in Resources */,
 				989EBD471A105AAF002FCDAA /* Button_Camera_100x50.png in Resources */,
+				989EBDB31A121A5C002FCDAA /* Icon-40.png in Resources */,
 				989EBCE41A10593F002FCDAA /* Main.storyboard in Resources */,
 				989EBD771A105E26002FCDAA /* Shiro100vs_問題.rtf in Resources */,
 				989EBD7E1A1063A7002FCDAA /* Camera_40x40.png in Resources */,
 				989EBD591A105AAF002FCDAA /* Setting_40x40.png in Resources */,
 				989EBD5F1A105AAF002FCDAA /* tokushima3.png in Resources */,
+				989EBDB51A121A5C002FCDAA /* Icon-60.png in Resources */,
+				989EBDBD1A121A5C002FCDAA /* iTunesArtwork@2x.png in Resources */,
 				989EBD951A108FFF002FCDAA /* Ranking_40x40.png in Resources */,
 				989EBD811A10644B002FCDAA /* Camera_120x120.png in Resources */,
+				989EBDB71A121A5C002FCDAA /* Icon-76.png in Resources */,
 				989EBD5C1A105AAF002FCDAA /* Slideshow_40x40.png in Resources */,
 				989EBD4A1A105AAF002FCDAA /* Button_Shikan_150x120.artx in Resources */,
 				989EBD4B1A105AAF002FCDAA /* Button_Shikan_150x120.png in Resources */,
 				989EBD571A105AAF002FCDAA /* movie42.png in Resources */,
+				989EBDBC1A121A5C002FCDAA /* iTunesArtwork.png in Resources */,
+				989EBDBB1A121A5C002FCDAA /* Icon@3x.png in Resources */,
+				989EBDB91A121A5C002FCDAA /* Icon-Small.png in Resources */,
 				989EBD601A105AAF002FCDAA /* Tokushima_40x40.png in Resources */,
 				989EBD5A1A105AAF002FCDAA /* silhouette4.png in Resources */,
 				989EBD631A105AAF002FCDAA /* Yajiri_40x40.png in Resources */,
 				989EBD451A105AAF002FCDAA /* Button_Album_100x50.png in Resources */,
 				989EBD491A105AAF002FCDAA /* Button_Modoru_100x50.png in Resources */,
+				989EBDB61A121A5C002FCDAA /* Icon-60@2x.png in Resources */,
 				989EBD501A105AAF002FCDAA /* Japanese_80x80.png in Resources */,
 				989EBD981A108FFF002FCDAA /* Ranking.png in Resources */,
 				989EBD751A105E26002FCDAA /* Shiro100vs_Framework.rtf in Resources */,
 				989EBCE91A10593F002FCDAA /* LaunchScreen.xib in Resources */,
 				989EBD441A105AAF002FCDAA /* Button_Album_100x50.artx in Resources */,
 				989EBD851A1075DB002FCDAA /* test_@1x.png in Resources */,
+				989EBDBA1A121A5C002FCDAA /* Icon-Small@2x.png in Resources */,
 				989EBD7F1A1063A7002FCDAA /* Camera_80x80.png in Resources */,
 				989EBD661A105AAF002FCDAA /* yajiritsukichigaiya.png in Resources */,
 				989EBD581A105AAF002FCDAA /* play2.png in Resources */,
 				989EBD4D1A105AAF002FCDAA /* hata.png in Resources */,
 				989EBD511A105AAF002FCDAA /* Japanese_color.png in Resources */,
 				989EBD651A105AAF002FCDAA /* Yajiri_80x80.png in Resources */,
+				989EBDB81A121A5C002FCDAA /* Icon-76@2x.png in Resources */,
 				989EBD861A1075DB002FCDAA /* test_@2x.png in Resources */,
 				989EBD761A105E26002FCDAA /* Shiro100vs_位.rtf in Resources */,
 				989EBD551A105AAF002FCDAA /* Mikata_142x127.artx in Resources */,
+				989EBDB41A121A5C002FCDAA /* Icon-40@2x.png in Resources */,
 				989EBCE61A10593F002FCDAA /* Images.xcassets in Resources */,
 				989EBD5E1A105AAF002FCDAA /* Teki_142x127.png in Resources */,
 				989EBD961A108FFF002FCDAA /* Ranking_80x80.png in Resources */,
